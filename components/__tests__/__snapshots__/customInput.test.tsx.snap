@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomInput Component applies custom styles 1`] = `
+<View
+  style={
+    {
+      "marginVertical": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Password
+  </Text>
+  <TextInput
+    placeholder="Enter your password"
+    style={
+      [
+        {
+          "borderColor": "#ccc",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#333",
+          "fontSize": 14,
+          "padding": 10,
+        },
+        {
+          "borderColor": "red",
+        },
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`CustomInput Component displays an error message 1`] = `
+<View
+  style={
+    {
+      "marginVertical": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Email
+  </Text>
+  <TextInput
+    placeholder="Enter your email"
+    style={
+      [
+        {
+          "borderColor": "#ccc",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#333",
+          "fontSize": 14,
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "red",
+        "fontSize": 12,
+        "marginTop": 5,
+      }
+    }
+  >
+    Invalid email address
+  </Text>
+</View>
+`;
+
+exports[`CustomInput Component passes props to TextInput 1`] = `
+<View
+  style={
+    {
+      "marginVertical": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Username
+  </Text>
+  <TextInput
+    keyboardType="email-address"
+    maxLength={20}
+    placeholder="Enter your username"
+    style={
+      [
+        {
+          "borderColor": "#ccc",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#333",
+          "fontSize": 14,
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
+
+exports[`CustomInput Component renders correctly with required props 1`] = `
+<View
+  style={
+    {
+      "marginVertical": 10,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#333",
+        "fontSize": 16,
+        "fontWeight": "bold",
+        "marginBottom": 5,
+      }
+    }
+  >
+    Username
+  </Text>
+  <TextInput
+    placeholder="Enter your username"
+    style={
+      [
+        {
+          "borderColor": "#ccc",
+          "borderRadius": 5,
+          "borderWidth": 1,
+          "color": "#333",
+          "fontSize": 14,
+          "padding": 10,
+        },
+        undefined,
+      ]
+    }
+  />
+</View>
+`;
